@@ -33,7 +33,7 @@
                   <div class="grid grid-cols-2 gap-x-4 gap-y-10">
                     <div v-for="item in category.featured" :key="item.name" class="group relative">
                       <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
-                        <img :src="item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
+                        <img  v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
                       </div>
                       <router-link to="/shop"  class="mt-6 block text-sm font-medium text-gray-900">
                         <span class="sticky z-10 inset-0" aria-hidden="true" />
@@ -103,7 +103,7 @@
                                 <div class="grid grid-cols-4 gap-y-10 gap-x-8 py-16">
                                   <div v-for="item in category.featured" :key="item.name" class="group relative">
                                     <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
-                                      <img :src="item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
+                                      <img  v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
                                     </div>
                                     <router-link target="_blank" to="/shop" class="mt-4 block font-medium text-gray-900">
                                       <span class="absolute z-10 inset-0" aria-hidden="true" />
@@ -220,26 +220,26 @@ const navigation = {
         {
           name: 'عروسک',
           href: '#',
-          imageSrc: '../assets/prod/4.jpg',
-          imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          imageSrc: '4.jpg',
+          imageAlt: 'محصول',
         },
         {
           name: 'عروسک',
           href: '#',
-          imageSrc: '../assets/prod/4.jpg',
-          imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          imageSrc: '4.jpg',
+          imageAlt: 'محصول',
         },
         {
           name: 'عروسک',
           href: '#',
-          imageSrc: '../assets/prod/4.jpg',
-          imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          imageSrc: '4.jpg',
+          imageAlt: 'محصول',
         },
         {
           name: 'عروسک',
           href: '#',
-          imageSrc: '../assets/prod/4.jpg',
-          imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          imageSrc: '4.jpg',
+          imageAlt: 'محصول',
         }
       ],
     },

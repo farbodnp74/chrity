@@ -2,7 +2,7 @@
   <div lang="fa" class="min-h-screen bg-amber-50" style="text-align: center">
     <TheWelcome class="top-0 sticky z-40 "/>
     <div class="container hidden md:flex text-center mx-auto items-center" >
-      <button class="justify-center text-center mx-auto items-center" >
+      <button @click="redirect" class="justify-center text-center mx-auto items-center" >
         <section class="hexagon-gallery mx-auto text-center">
           <div class="hex ">
             <div class="overlay">
@@ -50,13 +50,13 @@
       </button>
     </div>
     <div class="md:hidden">
-      <div class="min-h-screen bg-amber-100 mx-auto text-center pt-3">
+      <button @click="redirect" class="min-h-screen bg-amber-100 mx-auto text-center pt-3">
         <img src="~/assets/prod/1.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-6  text-left h-52 w-52">
         <img src="~/assets/prod/2.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce mx-auto text-center h-52 w-52">
         <img src="~/assets/prod/3.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-24 my-3  text-right h-52 w-52">
         <img src="~/assets/prod/7.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce  ml-24 pb-3 h-52 w-52">
 
-      </div>
+      </button>
     </div>
 
     <TheFooter class="py-5"/>

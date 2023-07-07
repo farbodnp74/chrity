@@ -11,7 +11,7 @@
             <div v-for="incentive in incentives" :key="incentive.name" class="text-center sm:flex sm:text-left lg:block lg:text-center">
               <div class="sm:flex-shrink-0">
                 <div class="flow-root">
-                  <img class="w-16 h-16 mx-auto" :src="incentive.imageSrc" :alt="incentive.description" />
+                  <img class="w-16 h-16 mx-auto" v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+incentive.imageSrc" :alt="incentive.description" />
                 </div>
               </div>
               <div class="mt-3 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
@@ -34,18 +34,18 @@
 const incentives = [
   {
     name: 'یک چشم زدن',
-    imageSrc: './assets/prod/7.jpg',
+    imageSrc: '7.jpg',
     description:
         "تحویل مرسوله با پست  به سراسر ایران است در صورت نیاز شمادر تهران با پیک ارسال میشود .",
   },
   {
     name: 'حراج فصل',
-    imageSrc: './assets/prod/7.jpg',
+    imageSrc: '7.jpg',
     description: "در مناسبات مختلف در کنار شما با حراج ویژه خواهیم بود.",
   },
   {
     name: 'خرید بالا ارسال رایگان',
-    imageSrc: './assets/prod/7.jpg',
+    imageSrc: '7.jpg',
     description: "سفارش بالای 500 هزار تومان با حمل رایگان در اختیار شما .",
   },
 

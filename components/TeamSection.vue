@@ -13,8 +13,8 @@
 <!--              <img class="rounded-full mx-auto border-4 border-amber-500" src="~/assets/pic/profile4.jpg" alt="" />-->
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3 class="text-white">سارا بیات</h3>
-                  <p class="text-indigo-400">مدیر فروش</p>
+                  <h3 class="text-white">خانم جزایری</h3>
+                  <p class="text-indigo-400"> مدیر</p>
                 </div>
               </div>
             </div>
@@ -24,8 +24,8 @@
 <!--              <img class="rounded-full mx-auto border-amber-500 border-4" src="~/assets/pic/profile4.jpg" alt="" />-->
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3 class="text-white ">علی موحدی</h3>
-                  <p class="text-indigo-400">product manager</p>
+                  <h3 class="text-white ">خانم میترا</h3>
+                  <p class="text-indigo-400">روابط عمومی</p>
                 </div>
               </div>
             </div>
@@ -40,24 +40,16 @@
 <script>
 const people = [
   {
-    name: 'سارا بیات',
-    role: 'مدیر فروش',
+    name: 'خانم جزایری',
+    role: 'مدیر ',
     imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'سارا بیات',
-    role: 'مدیر فروش',
-    imageUrl:
-        'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'علی موحدی',
-    role: 'product manager',
+    name: 'خانم میترا',
+    role: 'روابط عمومی ',
     imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     twitterUrl: '#',

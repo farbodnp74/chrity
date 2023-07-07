@@ -11,13 +11,13 @@
         <div class="lg:col-start-2">
 <!--          <h2 id="features-heading" class="font-medium text-gray-500">محصولات  مینو</h2>-->
           <p class="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">محصولات  مینو</p>
-          <p class="mt-4 text-gray-500 inline-flex">
-            <a href="" target="_blank" class="border-b-2 text-amber-600 mx-4 border-black">
-              به زودی
-            </a>
+<!--          <p class="mt-4 text-gray-500 inline-flex">-->
+<!--            <a href="" target="_blank" class="border-b-2 text-amber-600 mx-4 border-black">-->
+<!--              به زودی-->
+<!--            </a>-->
 
-            <span aria-hidden="true"  class="text-black"> 	&rarrhk;</span>
-          </p>
+<!--            <span aria-hidden="true"  class="text-black"> 	&rarrhk;</span>-->
+<!--          </p>-->
 
           <dl class="mt-10 grid grid-cols-1 gap-y-10 gap-x-8 text-sm sm:grid-cols-2">
             <div v-for="feature in features" :key="feature.name">
@@ -35,7 +35,7 @@
 const features = [
   {
     name: 'قابل اعتماد',
-    description: 'عکس  بدون فیلتر و باکیفیت در اختیار شما.',
+    description: 'عکس  بدون فیلتر و باکیفیت در اختیار شما',
   },
   {
     name: 'محصولات متنوع',

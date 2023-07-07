@@ -12,7 +12,7 @@
              class="group relative p-4 border-l border-b border-gray-200 sm:p-6 border-black">
           <div class="flex font-sans shadow border-2 border-black bg-gray-100 rounded-xl">
             <div class="flex-none w-40 lg:w-56 relative">
-              <img v-bind:src="require('assets/prod/'+product.image)" :alt="product.name"
+              <img v-bind:src="'~/assets/prod/'+product.image" :alt="product.name"
                    class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />
             </div>
             <div class="flex-auto p-6">

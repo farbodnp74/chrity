@@ -31,6 +31,7 @@ const navigation = {
     { name: 'خانه', href: '/' },
     { name: 'درباره ما', href: '/about' },
     { name: 'فروشگاه', href: '/shop' },
+    { name: 'داستان ما', href: '/story' },
   ],
   // social: [
   //   {

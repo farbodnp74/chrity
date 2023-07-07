@@ -1,9 +1,9 @@
 <template>
     <div class="relative bg-indigo-200 overflow-hidden" dir="ltr">
-      <div class="bg-gray-800 pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+      <div class="bg-gray-800 pt-16 pb-32 sm:pt-24 lg:pt-40 lg:pb-48">
         <div class=" relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static" dir="rtl">
           <div>
-            <p style="text-align: justify ; line-height: 30px;" id="sale-headineg" class="font-bold tracking-tight text-gray-900 text-sm md:text-4xl block md:hidden">
+            <p style="text-align: justify ; line-height: 30px;" id="sale-headineg" class="font-bold tracking-tight text-gray-50 text-sm md:text-4xl block md:hidden">
 
               در حال حاضر این موسسه خیریه بعنوان یکی از پرچمداران کارآفرینی اجتماعی در اجرا و توسعه این فرهنگ نوین با ایجاد  فرصت شغلی تولیدی برای منابینا و ناشنوایان خراسان شمالی بعنوان الگویی قابل استناد در سازمان بهزیستی و نیز بین موسسات خیریه همکار در حوزه توانمند سازی اجتماعی معلولین می باشد.
             </p>
@@ -20,8 +20,8 @@
               </router-link>
             </div>
           </div>
-          <div>
-            <div class="mt-10">
+          <div class=" hidden lg:block">
+            <div class="mt-10 hidden lg:block">
               <!-- Decorative image grid -->
               <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
                 <div class="absolute transform sm:left-0 sm:top-0 sm:translate-x-8 lg:left-0 lg:top-1/2 lg:-translate-y-1/2 lg:-translate-x-8">

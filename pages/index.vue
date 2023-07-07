@@ -1,8 +1,8 @@
 <template>
-  <div lang="fa" class="min-h-screen bg-amber-50" style="text-align: center">
+  <div lang="fa" class="min-h-screen bg-indigo-300" style="text-align: center">
     <TheWelcome class="top-0 sticky z-40 "/>
-    <div class="container hidden md:flex text-center mx-auto items-center" >
-      <button @click="redirect" class="justify-center text-center mx-auto items-center" >
+    <div class="container hidden md:flex text-center mx-auto items-center mb-5" >
+      <button @click="redirect" class="justify-center text-center mx-auto items-center pb-12" >
         <section class="hexagon-gallery mx-auto text-center">
           <div class="hex ">
             <div class="overlay">
@@ -49,12 +49,12 @@
         </section>
       </button>
     </div>
-    <div class="md:hidden">
-      <button @click="redirect" class="min-h-screen bg-amber-100 mx-auto text-center pt-3">
-        <img src="~/assets/prod/1.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-6  text-left h-52 w-52">
-        <img src="~/assets/prod/2.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce mx-auto text-center h-52 w-52">
-        <img src="~/assets/prod/3.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-24 my-3  text-right h-52 w-52">
-        <img src="~/assets/prod/7.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce  ml-24 pb-3 h-52 w-52">
+    <div class="md:hidden bg-indigo-200">
+      <button @click="redirect" class="min-h-screen bg-indigo-300 mx-auto text-center pt-3">
+<!--        <img src="~/assets/prod/1.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-6  text-left h-52 w-52">-->
+<!--        <img src="~/assets/prod/2.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce mx-auto text-center h-52 w-52">-->
+<!--        <img src="~/assets/prod/3.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-24 my-3  text-right h-52 w-52">-->
+        <img src="~/assets/prod/7.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce  sm:ml-24 lg:ml-0 lg:mx-auto pb-3 h-52 w-52">
 
       </button>
     </div>
@@ -240,7 +240,7 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #fbbf24;
+  background-color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
 .container:hover .overlay {

@@ -81,7 +81,7 @@ export default {
 
     }
 
-    const myInterval = setInterval(myTimer, 1000);
+    const myInterval = setInterval(myTimer, 5000);
     function myTimer() {
       redirect()
       clearInterval(myInterval)

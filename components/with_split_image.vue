@@ -20,9 +20,9 @@
       <div class="aspect-w-3 pt-32 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full lg:pr-4 xl:pr-16">
 <!--        <img src="https://tailwindui.com/img/ecommerce-images/confirmation-page-01-hero.jpg" alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen." class="h-full w-full object-center object-cover lg:h-full lg:w-full" />-->
         <div class="m-5 p-5 rounded-lg ">
-          <video src="~/assets/vid/1.mp4" controls>
-            Your browser does not support the video tag.
-          </video>
+<!--          <video src="~/assets/vid/1.mp4" controls>-->
+<!--            Your browser does not support the video tag.-->
+<!--          </video>-->
         </div>
 
       </div>

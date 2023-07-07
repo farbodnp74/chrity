@@ -52,9 +52,9 @@
     <div class="md:hidden">
       <div class="min-h-screen bg-amber-100 mx-auto text-center pt-3">
         <img src="~/assets/prod/1.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-6  text-left h-52 w-52">
-        <img src="~/assets/prod/1.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce mx-auto text-center h-52 w-52">
-        <img src="~/assets/prod/1.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-24 my-3  text-right h-52 w-52">
-        <img src="~/assets/prod/1.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce  ml-24 pb-3 h-52 w-52">
+        <img src="~/assets/prod/2.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce mx-auto text-center h-52 w-52">
+        <img src="~/assets/prod/3.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-24 my-3  text-right h-52 w-52">
+        <img src="~/assets/prod/7.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce  ml-24 pb-3 h-52 w-52">
 
       </div>
     </div>

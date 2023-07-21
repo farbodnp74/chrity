@@ -12,10 +12,14 @@
              class="group relative p-4 border-l border-b border-gray-200 sm:p-6 border-black">
           <div class="flex font-sans shadow border-2 border-black bg-gray-100 rounded-xl">
             <div class="flex-none w-40 lg:w-56 relative">
+<!--              <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"-->
+<!--                   class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />-->
               <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"
-                   class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />
+                   class="  shadow w-full  mt-5 h-auto object-right rounded-xl " loading="lazy" />
 
             </div>
+
+
             <div class="flex-auto p-6">
               <div class="flex flex-wrap">
                 <router-link :to="`/product/${product.id}`" class="flex-auto font-medium text-slate-900">
@@ -170,14 +174,6 @@ export default {
         "image" : "3.jpg"
       },
       {
-        "name"  : "ست ام آر آی",
-        "description"  : "گان کوتاه و شلوار و کلاه به صورت پشت بسته در گرماز های مختلف",
-        "category"  : "ست جراحی",
-        "country"  : "ایران",
-        "size" : "-",
-        "image" : "4.jpg"
-      },
-      {
         "name"  : "دراشیت",
         "description"  : "پودر جاذب دارای جذب بالا ضد حساسیت",
         "category"  : "ست جراحی",
@@ -216,14 +212,6 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "8.jpg"
-      },
-      {
-        "name"  : "گان تک صداب ",
-        "description"  : " پارچه لمینت استین کش باف ضدآب",
-        "category"  : "ست جراحی",
-        "country"  : "ایران",
-        "size" : "-",
-        "image" : "9.jpg"
       },
       {
         "name"  : "گان تک صداب ",

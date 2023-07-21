@@ -8,7 +8,7 @@
         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
         </div>
         <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">خیریه و تولیدی مینو</h1>
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 text-lg lg:text-6xl">خیریه و تولیدی مینو</h1>
           <p style="text-align: justify; line-height: 30px;" class="mt-5 text-center justify-between">
             موسسه خیریه مهرو امید پویان مینو خراسان شمالی، سازمان غیر سیاسی، غیر دولتی، غیر انتفاعی است که با هدف ارتقاء سطح توانایی ‌های افراد دارای معلولیت از طریق فرآیند «آموزش خیاطی »،«توانبخشی» و حمایت موثر از« اشتغال و کارآفرینی» عزیزان معلولین جسمی حرکتی و نابینا و ناشنوا از سال 1390 شروع به کار کرد.
           </p>

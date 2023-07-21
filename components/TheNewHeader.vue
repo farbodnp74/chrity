@@ -18,34 +18,40 @@
             </div>
 
             <!-- Links -->
-            <TabGroup as="div" class="mt-2">
-              <div class="border-b border-gray-200">
-                <TabList class="-mb-px flex px-4 space-x-8">
-                  <Tab as="template" v-for="category in navigation.categories" :key="category.name" v-slot="{ selected }">
-                    <button :class="[selected ? 'text-indigo-600 border-indigo-600' : 'text-gray-900 border-transparent', 'flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium']">
-                      {{ category.name }}
-                    </button>
-                  </Tab>
-                </TabList>
-              </div>
-              <TabPanels as="template">
-                <TabPanel v-for="category in navigation.categories" :key="category.name" class="px-4 py-6 space-y-12">
-                  <div class="grid grid-cols-2 gap-x-4 gap-y-10">
-                    <div v-for="item in category.featured" :key="item.name" class="group relative">
-                      <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
-                        <img  v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
-                      </div>
-                      <router-link to="/shop"  class="mt-6 block text-sm font-medium text-gray-900">
-                        <span class="sticky z-10 inset-0" aria-hidden="true" />
-                        {{ item.name }}
-                      </router-link>
-                      <router-link to="/shop" aria-hidden="true" class="mt-1 text-sm text-gray-500">میخوامش !</router-link>
-                    </div>
-                  </div>
-                </TabPanel>
-              </TabPanels>
-            </TabGroup>
+<!--            <TabGroup as="div" class="mt-2">-->
+<!--              <div class="border-b border-gray-200">-->
+<!--                <TabList class="-mb-px flex px-4 space-x-8">-->
+<!--                  <Tab as="template" v-for="category in navigation.categories" :key="category.name" v-slot="{ selected }">-->
+<!--                    <button :class="[selected ? 'text-indigo-600 border-indigo-600' : 'text-gray-900 border-transparent', 'flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium']">-->
+<!--                      {{ category.name }}-->
+<!--                    </button>-->
+<!--                  </Tab>-->
+<!--                </TabList>-->
+<!--              </div>-->
+<!--              <TabPanels as="template">-->
+<!--                <TabPanel v-for="category in navigation.categories" :key="category.name" class="px-4 py-6 space-y-12">-->
+<!--                  <div class="grid grid-cols-2 gap-x-4 gap-y-10">-->
+<!--                    <div v-for="item in category.featured" :key="item.name" class="group relative">-->
+<!--                      <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">-->
+<!--                        <img  v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />-->
+<!--                      </div>-->
+<!--                      <router-link to="/shop"  class="mt-6 block text-sm font-medium text-gray-900">-->
+<!--                        <span class="sticky z-10 inset-0" aria-hidden="true" />-->
+<!--                        {{ item.name }}-->
+<!--                      </router-link>-->
+<!--                      <router-link to="/shop" aria-hidden="true" class="mt-1 text-sm text-gray-500">میخوامش !</router-link>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </TabPanel>-->
+<!--              </TabPanels>-->
+<!--            </TabGroup>-->
+            <router-link  to="/shop" class="m-2 p-2 block font-medium text-gray-900">
+              محصولات
+            </router-link>
 
+            <router-link  to="/gallery" class="m-2 p-2 block font-medium text-gray-900">
+              گالری
+            </router-link>
             <div class="border-t border-gray-200 py-6 px-4 space-y-6">
               <div v-for="page in navigation.pages" :key="page.name" class="flow-root">
                 <a :href="page.href" class="-m-2 p-2 block font-medium text-gray-900">{{ page.name }}</a>

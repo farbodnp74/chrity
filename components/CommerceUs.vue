@@ -5,7 +5,7 @@
       <div class="bg-gray-50 rounded-2xl px-6 py-16 sm:p-16 border border-black border-4">
         <div class="max-w-xl mx-auto lg:max-w-none">
           <div class="text-center">
-            <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">در مینو این امتیاز ها لایق شماست..</h2>
+            <h2 class="text-lg lg:text-2xl font-extrabold tracking-tight text-gray-900">در مینو این امتیاز ها لایق شماست..</h2>
           </div>
           <div class="mt-12 max-w-sm mx-auto grid grid-cols-1 gap-y-10 gap-x-8 sm:max-w-none lg:grid-cols-3">
             <div v-for="incentive in incentives" :key="incentive.name" class="text-center sm:flex sm:text-left lg:block lg:text-center">
@@ -46,7 +46,7 @@ const incentives = [
   {
     name: 'خرید بالا ارسال رایگان',
     imageSrc: '3.jpg',
-    description: "سفارش بالای 500 هزار تومان با حمل رایگان در اختیار شما .",
+    description: "سفارش بالا  با حمل رایگان در اختیار شما .",
   },
 
 ]

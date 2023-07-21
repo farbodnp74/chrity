@@ -14,6 +14,7 @@
             <div class="flex-none w-40 lg:w-56 relative">
               <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"
                    class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />
+
             </div>
             <div class="flex-auto p-6">
               <div class="flex flex-wrap">
@@ -98,9 +99,7 @@
   </div>
   <TheLoader v-else/>
 </template>
-<script>
 
-</script>
 <script>
 import { StarIcon,ShoppingCartIcon,PlusIcon } from '@heroicons/vue/solid'
 import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from '@heroicons/vue/solid'
@@ -109,7 +108,6 @@ import TheLoader from "./TheLoader";
 import TheSimpleNotification from "./TheSimpleNotification";
 import TheSimpleToast from "./TheSimpleToast";
 import TheSimpleError from "./TheSimpleError";
-
 
 export default {
   components: {
@@ -124,24 +122,12 @@ export default {
     ArrowNarrowLeftIcon,
     ArrowNarrowRightIcon,
   },
-   async jsonld() {
-    if(this.show_data){
-      const items = this.products.map((item, index) => ({
-        '@type': 'ListItem',
-        position: index + 1,
-        item: {
-          '@id': item.url,
-          name: item,
-        },
-      }))
-      if(items) {
-        return {
-          '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: items,
-        };
-      }
-    }
+  head: {
+    script: [
+      {
+        src: "https://code.jquery.com/jquery-3.5.1.min.js",
+      },
+    ],
   },
   data(){
     return {

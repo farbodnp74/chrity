@@ -23,7 +23,7 @@
             <img src="~/public/prod/7.jpg"  class="w-1/2" alt=" دراشیت">
           </div>
           <div class="hex">
-            <img src="~/public/prod/2.jpg" alt="تولیدی مینو">
+            <img src="~/public/prod/3.jpg"  class="w-1/2" alt=" دراشیت">
           </div>
 <!--          <div class="hex">-->
 <!--            <img src="~/public/product/8.jpg" alt="مینو">-->

@@ -86,39 +86,47 @@
                   <!-- Flyout menus -->
                   <PopoverGroup class="px-4 bottom-0 inset-x-0">
                     <div class="h-full flex justify-center space-x-8 space-x-reverse">
-                      <Popover v-for="category in navigation.categories" :key="category.name" class="flex" v-slot="{ open }">
-                        <div class="relative flex ">
-                          <PopoverButton :class="[open ? 'font-extrabold border-indigo-600 text-indigo-600 focus:outline-none  border-b-2 hover:border-indigo-600' : 'font-extrabold border-b-2 hover:border-indigo-600 focus:outline-none border-transparent text-gray-700 hover:text-gray-800', 'relative z-10 flex items-center transition-colors ease-out duration-200 text-xl  border-b-2 -mb-px pt-px']">
-                            {{ category.name }}
-                          </PopoverButton>
-                        </div>
+<!--                      <Popover v-for="category in navigation.categories" :key="category.name" class="flex" v-slot="{ open }">-->
+<!--                        <div class="relative flex ">-->
+<!--                          <PopoverButton :class="[open ? 'font-extrabold border-indigo-600 text-indigo-600 focus:outline-none  border-b-2 hover:border-indigo-600' : 'font-extrabold border-b-2 hover:border-indigo-600 focus:outline-none border-transparent text-gray-700 hover:text-gray-800', 'relative z-10 flex items-center transition-colors ease-out duration-200 text-xl  border-b-2 -mb-px pt-px']">-->
+<!--                            {{ category.name }}-->
+<!--                          </PopoverButton>-->
+<!--                        </div>-->
 
-                        <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0" enter-to-class="opacity-100" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100" leave-to-class="opacity-0">
-                          <PopoverPanel class="absolute top-full inset-x-0 text-sm text-gray-500">
-                            <!-- Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow -->
-                            <div class="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true" />
+<!--                        <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0" enter-to-class="opacity-100" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100" leave-to-class="opacity-0">-->
+<!--                          <PopoverPanel class="absolute top-full inset-x-0 text-sm text-gray-500">-->
+<!--                            &lt;!&ndash; Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow &ndash;&gt;-->
+<!--                            <div class="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true" />-->
 
-                            <div class="relative bg-white">
-                              <div class="max-w-7xl mx-auto px-8">
-                                <div class="grid grid-cols-4 gap-y-10 gap-x-8 py-16">
-                                  <div v-for="item in category.featured" :key="item.name" class="group relative">
-                                    <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
-                                      <img  v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />
-                                    </div>
-                                    <router-link target="_blank" to="/shop" class="mt-4 block font-medium text-gray-900">
-                                      <span class="absolute z-10 inset-0" aria-hidden="true" />
-                                      {{ item.name }}
-                                    </router-link>
-                                    <router-link to="/shop" aria-hidden="true" class="mt-1"> میخوامش !</router-link>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </PopoverPanel>
-                        </transition>
-                      </Popover>
+<!--                            <div class="relative bg-white">-->
+<!--                              <div class="max-w-7xl mx-auto px-8">-->
+<!--                                <div class="grid grid-cols-4 gap-y-10 gap-x-8 py-16">-->
+<!--                                  <div v-for="item in category.featured" :key="item.name" class="group relative">-->
+<!--                                    <div class="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">-->
+<!--                                      <img  v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+item.imageSrc" :alt="item.imageAlt" class="object-center object-cover" />-->
+<!--                                    </div>-->
+<!--                                    <router-link target="_blank" to="/shop" class="mt-4 block font-medium text-gray-900">-->
+<!--                                      <span class="absolute z-10 inset-0" aria-hidden="true" />-->
+<!--                                      {{ item.name }}-->
+<!--                                    </router-link>-->
+<!--                                    <router-link to="/shop" aria-hidden="true" class="mt-1"> میخوامش !</router-link>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+<!--                              </div>-->
+<!--                            </div>-->
+<!--                          </PopoverPanel>-->
+<!--                        </transition>-->
+<!--                      </Popover>-->
+                      <router-link  to="/shop" class="flex items-center text-xl font-extrabold text-gray-700 hover:text-gray-800 hover:border-indigo-600 text-gray-800 focus:outline-none focus:outline-none border-transparent text-gray-700 hover:text-gray-800 relative z-10 flex items-center transition-colors ease-out duration-200 border-b-2 -mb-px pt-px">
+                        محصولات
+                      </router-link>
+
+                      <router-link  to="/gallery" class="flex items-center text-xl font-extrabold text-gray-700 hover:text-gray-800 hover:border-indigo-600 text-gray-800 focus:outline-none focus:outline-none border-transparent text-gray-700 hover:text-gray-800 relative z-10 flex items-center transition-colors ease-out duration-200 border-b-2 -mb-px pt-px">
+                        گالری
+                      </router-link>
+
                       <router-link  to="/" class="my-auto justify-center items-center text-center self-center">
-                        <span class="sr-only">کسا</span>
+                        <span class="sr-only">مینو</span>
                         <img class="h-40 w-auto sm:h-10" src="~/assets/prod/7.jpg" alt="" />
                       </router-link>
                       <router-link v-for="page in navigation.pages" :key="page.name" :to="page.href" class="flex items-center text-xl font-extrabold text-gray-700 hover:text-gray-800 hover:border-indigo-600 text-gray-800 focus:outline-none focus:outline-none border-transparent text-gray-700 hover:text-gray-800 relative z-10 flex items-center transition-colors ease-out duration-200 border-b-2 -mb-px pt-px">{{ page.name }}</router-link>

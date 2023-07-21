@@ -6,7 +6,7 @@
 <!--      <CategoriesWithImageBackgrounds/>-->
       <hr class="text-black bg-black py-0.5 lg:mx-72">
       <CategoriesWithScrollingCards/>
-      <TheNewsSection/>
+<!--      <TheNewsSection/>-->
 
 <!--      <CtaPart/>-->
       <CommerceUs/>

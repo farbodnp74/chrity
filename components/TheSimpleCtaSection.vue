@@ -28,26 +28,26 @@
                   <div class="flex items-center space-x-6 lg:space-x-8 lg:space-x-reverse">
                     <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-                        <img src="~/assets/prod/1.jpg" alt="" class="w-full h-full object-center object-cover rounded-lg" />
+                        <img src="~/public/prod/1.jpg" alt="" class="w-full h-full object-center object-cover rounded-lg" />
                       </div>
                       <div class="w-44 h-64 rounded-lg overflow-hidden mx-2 ">
-                        <img src="~/assets/prod/2.jpg" alt="" class="w-full h-full object-center object-cover" />
+                        <img src="~/public/prod/4.jpg" alt="" class="w-full h-full object-center object-cover" />
                       </div>
                     </div>
                     <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img src="~/assets/prod/4.jpg" alt="" class="w-full h-full object-center object-cover" />
+                        <img src="~/public/prod/6.jpg" alt="" class="w-full h-full object-center object-cover" />
                       </div>
                       <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img src="~/assets/prod/3.jpg" alt="" class="w-full h-full object-center object-cover" />
+                        <img src="~/public/prod/6.jpg" alt="" class="w-full h-full object-right object-cover" />
                       </div>
                       <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img src="~/assets/prod/4.jpg" alt="" class="w-full h-full object-center object-cover" />
+                        <img src="~/public/prod/9.jpg" alt="" class="w-full h-full object-right object-cover" />
                       </div>
                     </div>
                     <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img src="~/assets/prod/5.jpg" alt="" class="w-full h-full object-center object-cover" />
+                        <img src="~/public/prod/9.jpg" alt="" class="w-full h-full object-center object-cover" />
                       </div>
                       <div class="w-44 h-64 rounded-lg overflow-hidden">
                         <img src="~/assets/prod/6.jpg" alt="" class="w-full h-full object-center object-cover" />

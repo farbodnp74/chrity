@@ -5,47 +5,35 @@
       <button @click="redirect" class="justify-center text-center mx-auto items-center pb-12" >
         <section class="hexagon-gallery mx-auto text-center">
           <div class="hex ">
-            <div class="overlay">
-              <div class="text font-extrabold  "> عروسک</div>
-            </div>
-            <img src="~/assets/prod/1.jpg" alt="عروسک"></div>
+            <img src="~/public/prod/4.jpg" alt="ست جراحی"></div>
           <div class="hex">
-            <img src="~/assets/prod/2.jpg" alt="عروسک">
+            <img src="~/public/prod/5.jpg" alt="کلاه">
           </div>
           <div class="hex">
-            <div class="overlay">
-              <div class="text text-black font-extrabold">  عروسک</div>
-            </div>
             <img
-                src="~/assets/prod/3.jpg" alt=" عروسک">
+                src="~/public/prod/6.jpg" alt="گان جراحی">
           </div>
           <div class="hex">
-            <img src="~/assets/prod/4.jpg" alt=" عروسک">
+            <img src="~/public/prod/1.jpg" alt=" شلوار جراحی">
           </div>
           <div class="hex">
-            <img src="~/assets/prod/5.jpg" alt=" عروسک">
+            <img src="~/public/prod/8.jpg" alt=" کلاه پزشک">
           </div>
           <div class="hex">
-            <img src="~/assets/prod/6.jpg" alt=" عروسک">
+            <img src="~/public/prod/7.jpg"  class="w-1/2" alt=" دراشیت">
           </div>
           <div class="hex">
-            <img src="~/assets/prod/7.jpg" alt="some">
+            <img src="~/public/prod/2.jpg" alt="تولیدی مینو">
           </div>
-          <div class="hex">
-            <div class="overlay">
-              <div class="text text-black font-extrabold"> عروسک</div>
-            </div>
-            <img src="~/assets/prod/7.jpg" alt="عروسک">
-          </div>
-          <div class="hex">
-            <img src="~/assets/prod/4.jpg" alt=" عروسک">
-          </div>
-          <div class="hex">
-            <div class="overlay">
-              <div class="text text-black font-extrabold">عروسک</div>
-            </div>
-            <img src="~/assets/prod/2.jpg" alt="عروسک">
-          </div>
+<!--          <div class="hex">-->
+<!--            <img src="~/public/product/8.jpg" alt="مینو">-->
+<!--          </div>-->
+<!--          <div class="hex">-->
+<!--            <img src="~/public/product/9.jpg" alt=" خیریه مینو">-->
+<!--          </div>-->
+<!--          <div class="hex">-->
+<!--            <img src="~/public/product/10.jpg" alt="تولیدی مینو">-->
+<!--          </div>-->
         </section>
       </button>
     </div>

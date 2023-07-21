@@ -12,7 +12,7 @@
              class="group relative p-4 border-l border-b border-gray-200 sm:p-6 border-black">
           <div class="flex font-sans shadow border-2 border-black bg-gray-100 rounded-xl">
             <div class="flex-none w-40 lg:w-56 relative">
-              <img v-bind:src="'https://nuxt-sieraf.chbk.run/prod/'+product.image" :alt="product.name"
+              <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"
                    class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />
             </div>
             <div class="flex-auto p-6">
@@ -160,13 +160,110 @@ export default {
     this.fetchData()
     this.products = [
       {
-        "name"  : "عروسک",
-        "description"  : "عروسک",
-        "category"  : "عروسک",
+        "name"  : "ست جراحی مردانه",
+        "description"  : "گان و شلوار و کلاه به صورت پشت چسبی سه ردیف دوخته شده در گرماز های مختلف",
+        "category"  : "ست جراحی",
         "country"  : "ایران",
-        "size" : "20^3",
+        "size" : "-",
+        "image" : "1.jpg"
+      },
+      {
+        "name"  : "ست جراحی زنانه",
+        "description"  : "گان و شلوار و روسری به صورت پشت چسبی سه ردیف دوخته شده در گرماز های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "2.jpg"
+      },
+      {
+        "name"  : "ست جراحی زنانه",
+        "description"  : "گان و شلوار و کلاه به صورت پشت چسبی سه ردیف دوخته شده در گرماز های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "3.jpg"
+      },
+      {
+        "name"  : "ست ام آر آی",
+        "description"  : "گان کوتاه و شلوار و کلاه به صورت پشت بسته در گرماز های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
         "image" : "4.jpg"
       },
+      {
+        "name"  : "دراشیت",
+        "description"  : "پودر جاذب دارای جذب بالا ضد حساسیت",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "70*50  100*70",
+        "image" : "5.jpg"
+      },
+      {
+        "name"  : "کلاه پزشک و کلاه بیمار",
+        "description"  : "-",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "6.jpg"
+      },
+      {
+        "name"  : "کلاه پزشک و کلاه بیمار",
+        "description"  : "-",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "6.jpg"
+      },
+      {
+        "name"  : "شنل جهت پوشش ",
+        "description"  : "در گرماز های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "7.jpg"
+      },
+      {
+        "name"  : "گان استین کش باف",
+        "description"  : "قد 115 تا 120 و پشت کمر دار در گزماز های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "8.jpg"
+      },
+      {
+        "name"  : "گان تک صداب ",
+        "description"  : " پارچه لمینت استین کش باف ضدآب",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "9.jpg"
+      },
+      {
+        "name"  : "گان تک صداب ",
+        "description"  : " پارچه لمینت استین کش باف ضدآب",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "9.jpg"
+      },
+      {
+        "name"  : "لباس کودک ",
+        "description"  : "گان شلوار و کلاه و پشت کمر",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "10.jpg"
+      },
+      {
+        "name"  : " گان تک ",
+        "description"  : "بلند و کمردار بیمار",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "11.jpg"
+      },
+
     ]
   },
   methods: {

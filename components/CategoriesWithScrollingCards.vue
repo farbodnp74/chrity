@@ -16,38 +16,50 @@
             <div class="absolute min-w-screen-xl px-4 flex space-x-reverse space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-0 xl:grid xl:grid-cols-5 xl:gap-x-8">
               <a class="bg-black border border-2 border-black relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
                 <span aria-hidden="true" class="absolute inset-0">
-                  <img src='~/assets/prod/1.jpg' alt="عروسک" class="w-full h-full object-center object-cover" />
+                  <img src='~/public/product/2.jpg' alt="مینو" class="w-full h-full object-left object-cover" />
                 </span>
                 <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50" />
-                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">عروسک</span>
+                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">
+                  گان
+                </span>
               </a>
               <a class="bg-black border border-2 border-black relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
                 <span aria-hidden="true" class="absolute inset-0">
-                  <img src='~/assets/prod/1.jpg' alt="عروسک" class="w-full h-full object-center object-cover" />
+                  <img src='~/public/product/6.jpg' alt="مینو" class="w-full  h-full object-right object-cover " />
                 </span>
                 <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50" />
-                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">عروسک</span>
+                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">
+                  کلاه جراحی
+                </span>
               </a>
               <a class="bg-black border border-2 border-black relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
                 <span aria-hidden="true" class="absolute inset-0">
-                  <img src='~/assets/prod/1.jpg' alt="عروسک" class="w-full h-full object-center object-cover" />
+                  <img src='~/public/product/1.jpg' alt="مینو" class="w-full h-full object-right object-cover" />
                 </span>
                 <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50" />
-                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">عروسک</span>
+                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">
+                  ست جراحی مردانه
+                </span>
               </a>
               <a class="bg-black border border-2 border-black relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
                 <span aria-hidden="true" class="absolute inset-0">
-                  <img src='~/assets/prod/1.jpg' alt="عروسک" class="w-full h-full object-center object-cover" />
+                  <img src='~/public/product/10.jpg' alt="مینو" class="w-full h-full object-left object-cover" />
                 </span>
                 <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50" />
-                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">عروسک</span>
+                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">
+
+                  لباس کودک
+                </span>
               </a>
               <a class="bg-black border border-2 border-black relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
                 <span aria-hidden="true" class="absolute inset-0">
-                  <img src='~/assets/prod/1.jpg' alt="عروسک" class="w-full h-full object-center object-cover" />
+                  <img src='~/public/product/11.jpg' alt="مینو" class="w-full h-full object-right object-cover" />
                 </span>
                 <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50" />
-                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">عروسک</span>
+                <span class="relative mt-auto text-center bg-gray-900 p-1 rounded-xl shadow text-xl font-extrabold text-white">
+                  ست جراحی زنانه
+
+                </span>
               </a>
             </div>
           </div>

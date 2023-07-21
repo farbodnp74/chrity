@@ -11,11 +11,11 @@ export default {
       '@type': 'Corporation',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': ''
+        '@id': 'https://iranimarket.com/store'
       },
-      headline: 'تولیدی مینو',
-      description: '',
-      image: '../assets/prod/4.jpg',
+      headline: ' خیریه مینو',
+      description: 'موسسه خیریه مهرو امید پویان مینو خراسان شمالی، سازمان غیر سیاسی، غیر دولتی، غیر انتفاعی است که با هدف ارتقاء سطح توانایی ‌های افراد دارای معلولیت از طریق فرآیند «آموزش خیاطی »،«توانبخشی» و حمایت موثر از« اشتغال و کارآفرینی» عزیزان معلولین جسمی حرکتی و نابینا و ناشنوا از سال 1390 شروع به کار کرد.',
+      image: 'https://iranimarket.com/_nuxt/scrf1.47fd393c.jpeg',
       author: {
         '@type': 'Person',
         name: 'فربد نصیری پرتوی'
@@ -24,32 +24,31 @@ export default {
       dateModified: '7/17/2022',
       publisher: {
         '@type': 'Organization',
-        name: 'تولیدی مینو',
+        name: 'خیریه مینو',
         logo: {
           '@type': 'ImageObject',
-          url: ''
+          url: 'httpS://nuxt.markazimarket.com/public/storage/product/11042345975840'
         }
       }
     };
   },
   head: {
-    title: 'تولیدی مینو',
-    script: [
-      {
-        src: "",
-      },
-    ],
-    meta: [
+
+    title: 'خیریه مینو',
+    description: 'موسسه خیریه مهرو امید پویان مینو خراسان شمالی، سازمان غیر سیاسی، غیر دولتی، غیر انتفاعی است که با هدف ارتقاء سطح توانایی ‌های افراد دارای معلولیت از طریق فرآیند «آموزش خیاطی »،«توانبخشی» و حمایت موثر از« اشتغال و کارآفرینی» عزیزان معلولین جسمی حرکتی و نابینا و ناشنوا از سال 1390 شروع به کار کرد'
+    , meta: [
       {name:"google-site-verification" ,content:"_Y9NTv1bukKVeHHLG0K71UFKgFTeH0dtwHoiR9bg0oI" },
+      { name: 'description', content: 'در ایرانی مارکت هرچی بخواین با کمترین هزینه در اختیار شما با ارسال رایگان است برای خرید لطفا کلیک کنید ' },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: ' تولیدی مینو'
+        content: 'خیریه مینو'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: ''
+        content: 'موسسه خیریه مهرو امید پویان مینو خراسان شمالی، سازمان غیر سیاسی، غیر دولتی، غیر انتفاعی است که با هدف ارتقاء سطح توانایی ‌های افراد دارای معلولیت از طریق فرآیند «آموزش خیاطی »،«توانبخشی» و حمایت موثر از« اشتغال و کارآفرینی» عزیزان معلولین جسمی حرکتی و نابینا و ناشنوا از سال 1390 شروع به کار کردگ',
+
       },
       {
         hid: 'og:type',
@@ -57,14 +56,9 @@ export default {
         content: 'website',
       },
       {
-        hid: 'og:image',
-        property: 'og:image',
-        content: ''
-      },
-      {
         hid: 'og:url',
         property: 'og:url',
-        content: ''
+        content: 'https://iranimarket.com/'
       },
       {
         property: 'og:locale',

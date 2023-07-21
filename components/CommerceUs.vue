@@ -34,18 +34,18 @@
 const incentives = [
   {
     name: 'یک چشم زدن',
-    imageSrc: '7.jpg',
+    imageSrc: '3.jpg',
     description:
         "تحویل مرسوله با پست  به سراسر ایران است در صورت نیاز شمادر تهران با پیک ارسال میشود .",
   },
   {
     name: 'حراج فصل',
-    imageSrc: '7.jpg',
+    imageSrc: '3.jpg',
     description: "در مناسبات مختلف در کنار شما با حراج ویژه خواهیم بود.",
   },
   {
     name: 'خرید بالا ارسال رایگان',
-    imageSrc: '7.jpg',
+    imageSrc: '3.jpg',
     description: "سفارش بالای 500 هزار تومان با حمل رایگان در اختیار شما .",
   },
 

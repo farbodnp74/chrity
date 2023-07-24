@@ -1,11 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="bg-indigo-300">
+  <div class="bg-cyan-300">
     <div class="max-w-7xl mx-auto px-4 py-24 sm:px-6 lg:px-8">
       <div class="bg-gray-50 rounded-2xl px-6 py-16 sm:p-16 border border-black border-4">
         <div class="max-w-xl mx-auto lg:max-w-none">
           <div class="text-center">
-            <h2 class="text-lg lg:text-2xl font-extrabold tracking-tight text-gray-900">در مینو این امتیاز ها لایق شماست..</h2>
+            <h2 class="text-md lg:text-2xl font-extrabold tracking-tight text-gray-900">در مینو این امتیاز ها لایق شماست..</h2>
           </div>
           <div class="mt-12 max-w-sm mx-auto grid grid-cols-1 gap-y-10 gap-x-8 sm:max-w-none lg:grid-cols-3">
             <div v-for="incentive in incentives" :key="incentive.name" class="text-center sm:flex sm:text-left lg:block lg:text-center">
@@ -36,17 +36,17 @@ const incentives = [
     name: 'یک چشم زدن',
     imageSrc: '3.jpg',
     description:
-        "تحویل مرسوله با پست  به سراسر ایران است در صورت نیاز شمادر تهران با پیک ارسال میشود .",
+        "تحویل مرسوله با پست  به سراسر ایران است در صورت نیاز شمادر تهران با پیک ارسال میشود ",
   },
   {
     name: 'حراج فصل',
     imageSrc: '3.jpg',
-    description: "در مناسبات مختلف در کنار شما با حراج ویژه خواهیم بود.",
+    description: "در مناسبات مختلف در کنار شما با حراج ویژه خواهیم بود",
   },
   {
     name: 'خرید بالا ارسال رایگان',
     imageSrc: '3.jpg',
-    description: "سفارش بالا  با حمل رایگان در اختیار شما .",
+    description: "سفارش بالا  با حمل رایگان در اختیار شما ",
   },
 
 ]

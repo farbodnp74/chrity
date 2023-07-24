@@ -3,7 +3,7 @@
   <footer class="bg-gray-900 shadow-2xl sticky z-40">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
-        <div v-for="item in navigation.main" :key="item.name" class="px-5 py-2">
+        <div v-for="item in navigation.main" :key="item.name" class="px-2 lg:px-5 py-2">
           <router-link :to="item.href" class="text-base border-b-2 border-white text-white font-extrabold text-xl  hover:text-gray-400">
             {{ item.name }}
           </router-link>

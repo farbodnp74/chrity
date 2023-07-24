@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-indigo-400" v-if="show_banner">
+  <div class="bg-cyan-500" v-if="show_banner">
     <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
       <div class="flex items-center justify-center flex-wrap">
         <div class="w-0 flex-1 flex items-center text-center justify-center">
-          <span class="flex p-2 rounded-full bg-indigo-900 hidden md:flex">
+          <span class="flex p-2 rounded-full bg-cyan-900 hidden md:flex">
             <SpeakerphoneIcon class="h-6 w-6 text-white" aria-hidden="true" />
           </span>
           <h1 class="mr-3 font-extrabold text-gray-100 truncate">

@@ -1,29 +1,29 @@
 <template>
-  <div lang="fa" class="min-h-screen bg-indigo-300" style="text-align: center">
+  <div lang="fa" class="min-h-screen bg-cyan-300" style="text-align: center">
     <TheWelcome class="top-0 sticky z-40 "/>
     <div class="container hidden md:flex text-center mx-auto items-center mb-5" >
       <button @click="redirect" class="justify-center text-center mx-auto items-center pb-12" >
         <section class="hexagon-gallery mx-auto text-center">
-          <div class="hex ">
-            <img src="~/public/prod/4.jpg" alt="ست جراحی"></div>
-          <div class="hex">
+          <div class="hex  ">
+            <img class="" src="~/public/prod/4.jpg" alt="ست جراحی"></div>
+          <div class="hex animate-pulse">
             <img src="~/public/prod/5.jpg" alt="کلاه">
           </div>
-          <div class="hex">
+          <div class="hex ">
             <img
                 src="~/public/prod/6.jpg" alt="گان جراحی">
           </div>
-          <div class="hex">
+          <div class="hex animate-pulse">
             <img src="~/public/prod/1.jpg" alt=" شلوار جراحی">
           </div>
-          <div class="hex">
+          <div class="hex  ">
             <img src="~/public/prod/8.jpg" alt=" کلاه پزشک">
           </div>
-          <div class="hex">
+          <div class="hex ">
             <img src="~/public/prod/7.jpg"  class="w-1/2" alt=" دراشیت">
           </div>
-          <div class="hex">
-            <img src="~/public/prod/3.jpg"  class="w-1/2" alt=" دراشیت">
+          <div class="hex animate-pulse">
+            <img src="~/public/prod/3.jpg"  class="w-1/2 " alt=" دراشیت">
           </div>
 <!--          <div class="hex">-->
 <!--            <img src="~/public/product/8.jpg" alt="مینو">-->
@@ -37,8 +37,8 @@
         </section>
       </button>
     </div>
-    <div class="md:hidden bg-indigo-200">
-      <button @click="redirect" class="min-h-screen bg-indigo-300 mx-auto text-center pt-3">
+    <div class="md:hidden bg-cyan-200">
+      <button @click="redirect" class="min-h-screen bg-cyan-300 mx-auto text-center pt-3">
 <!--        <img src="~/assets/prod/1.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-6  text-left h-52 w-52">-->
 <!--        <img src="~/assets/prod/2.jpg" style="width: 200px; height: 200px" class="rounded-full animate-bounce mx-auto text-center h-52 w-52">-->
 <!--        <img src="~/assets/prod/3.jpg" style="width: 150px; height: 150px" class="rounded-full animate-bounce ml-24 my-3  text-right h-52 w-52">-->

@@ -37,6 +37,12 @@ const products = [
     imageAlt: "Front of men's Basic Tee in black.",
 
   },
+  {
+    id: 5,
+    imageSrc: '1.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+
+  },
   // More products...
 ]
 </script>

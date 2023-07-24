@@ -37,6 +37,10 @@
           <dt class="text-sm font-medium leading-6 text-gray-900">شماره موبایل</dt>
           <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0"> 09367942426</dd>
         </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt class="text-sm font-medium leading-6 text-gray-900"> نقشه کارگاه</dt>
+          <a href="https://goo.gl/maps/mfZFh7MDRENYsYJZA" target="_blank" class="mt-1 text-amber-600 text-sm leading-6 sm:col-span-2 sm:mt-0"> لینک نقشه</a>
+        </div>
       </dl>
     </div>
   </div>

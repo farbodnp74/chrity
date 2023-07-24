@@ -7,20 +7,18 @@
     <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
       <h2 class="sr-only">محصولات</h2>
 
-      <div class="-mx-px border-l border-gray-200 grid grid-cols-1 sm:mx-0 md:grid-cols-1 lg:grid-cols-2 my-5">
+      <div class="-mx-px border-l lg:border-gray-200 grid grid-cols-1 sm:mx-0 md:grid-cols-1 lg:grid-cols-2 my-5">
         <div v-for="(product,index) in products" :key="product.id"
-             class="group relative p-4 border-l border-b border-gray-200 sm:p-6 border-black">
-          <div class="flex font-sans shadow border-2 border-black bg-gray-100 rounded-xl">
-            <div class="flex-none w-40 lg:w-56 relative">
+             class="group relative p-4 border-l border-b lg:border-gray-200 sm:p-6 lg:border-black">
+          <div class="flex font-sans shadow lg:border-2 lg:border-black lg:bg-gray-100 rounded-xl">
+            <div class="flex-none w-64 mx-auto text-center lg:w-56 relative">
 <!--              <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"-->
 <!--                   class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />-->
               <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"
-                   class="  shadow w-full  mt-5 h-auto object-right rounded-xl " loading="lazy" />
+                   class="  lg:shadow w-full lg:mr-2  lg:my-6 h-auto object-right rounded-xl " loading="lazy" />
 
             </div>
-
-
-            <div class="flex-auto p-6">
+            <div class="flex-auto p-6 hidden lg:block">
               <div class="flex flex-wrap">
                 <router-link :to="`/product/${product.id}`" class="flex-auto font-medium text-slate-900">
                  {{product.name}}
@@ -69,6 +67,55 @@
                 {{product.description}}
               </p>
             </div>
+          </div>
+          <div class="flex-auto p-6 block lg:hidden">
+            <div class="flex flex-wrap">
+              <router-link :to="`/product/${product.id}`" class="flex-auto font-medium text-slate-900">
+                {{product.name}}
+              </router-link>
+              <!--                <div class="w-full flex-none mt-2 order-1 text-3xl font-bold text-gray-900">-->
+              <!--                  {{currencyFormat(product.price)}}-->
+              <!--                  <span class="text-sm font-bold text-gray-600">-->
+              <!--                    تومان-->
+              <!--                  </span>-->
+              <!--                </div>-->
+              <div class="text-sm font-medium text-slate-400">
+                {{product.category}}
+              </div>
+            </div>
+            <p class="mt-3 text-sm text-gray-500">
+              سایز : {{product.size}}
+            </p>
+            <p class="mt-1 text-sm text-gray-500">
+              جنس  : {{product.material}}
+            </p>
+            <p class="my-1 text-sm text-gray-500">
+              تولید : {{ product.country }}
+            </p>
+            <div class="flex space-x-4 mt-5 text-sm font-medium">
+              <div class="flex-auto flex space-x-4 space-x-reverse mx-4 mb-2">
+                <!--                  <button @click="createCart(product.id)"-->
+                <!--                          :class="loader ? 'hidden' : 'block'"-->
+                <!--                          class="inline-flex border border-black hover:bg-gray-300 items-center justify-center self-center h-10 px-6 font-semibold rounded-xl bg-gray-100 text-gray-900">-->
+
+                <!--                    <PlusIcon class="h-6 w-6 text-gray-900" />-->
+                <!--                    <div class="hidden lg:block">-->
+                <!--                      اضافه به سبد-->
+                <!--                    </div>-->
+                <!--                    <div v-if="loader_submit" class="flex justify-center items-center">-->
+                <!--                      <div class="animate-spin mx-2 rounded-full h-5 w-5 border-b-2 border-black"></div>-->
+                <!--                    </div>-->
+
+                <!--                  </button>-->
+                <!--                  <router-link to="/checkout"-->
+                <!--                          class="font-semibold rounded-full bg-yellow-100 m-2 p-2 text-gray-800 border  border-yellow-500 shadow-2xl text-white items-center self-center mx-auto text-center my-auto">-->
+                <!--                   <ShoppingCartIcon class="h-6 w-6 text-gray-800" />-->
+                <!--                  </router-link>-->
+              </div>
+            </div>
+            <p class="text-sm text-slate-500">
+              {{product.description}}
+            </p>
           </div>
 
           <!--          <div class="rounded-lg overflow-hidden bg-gray-200 aspect-w-1 aspect-h-1 group-hover:opacity-75">-->
@@ -180,14 +227,6 @@ export default {
         "country"  : "ایران",
         "size" : "70*50  100*70",
         "image" : "5.jpg"
-      },
-      {
-        "name"  : "کلاه پزشک و کلاه بیمار",
-        "description"  : "-",
-        "category"  : "ست جراحی",
-        "country"  : "ایران",
-        "size" : "-",
-        "image" : "6.jpg"
       },
       {
         "name"  : "کلاه پزشک و کلاه بیمار",

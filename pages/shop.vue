@@ -1,8 +1,13 @@
 <template>
+  <Head>
+    <Title>
+      محصولات مینو
+    </Title>
+  </Head>
     <NuxtLayout name="custom">
-      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-indigo-300 rounded-xl">
-        <h1 class="text-3xl font-extrabold tracking-tight text-gray-100">محصولات مینو</h1>
-        <p class="mt-4 max-w-xl text-sm text-gray-100">امیدواریم با حمایت های شما تنوع بیشتری به محصولات بدهیم.</p>
+      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-cyan-300 rounded-xl">
+        <h1 class="text-3xl font-extrabold tracking-tight text-gray-700">محصولات مینو</h1>
+        <p class="mt-4 max-w-xl text-sm text-gray-700">امیدواریم با حمایت های شما تنوع بیشتری به محصولات بدهیم.</p>
       </div>
 <!--      //next version-->
 <!--      <CategoryFilter/>-->

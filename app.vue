@@ -1,5 +1,10 @@
 <template>
   <NuxtLayout>
+    <Head>
+      <Title>
+        خیریه مینو
+      </Title>
+    </Head>
     <NuxtPage />
   </NuxtLayout>
 </template>

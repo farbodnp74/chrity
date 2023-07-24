@@ -1,5 +1,10 @@
 <template>
   <div>
+    <Head>
+      <Title>
+        درباره مینو
+      </Title>
+    </Head>
     <NuxtLayout name="custom">
 
       <ContactUs/>

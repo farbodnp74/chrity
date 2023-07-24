@@ -184,7 +184,7 @@
                   </Popover>
                   <div class="flex items-center lg:ml-8">
                     <!-- login -->
-                    <router-link to="/help"  class="text-sm font-extrabold bg-indigo-500 rounded-lg text-gray-50 mx-1 lg:mx-3 p-2 lg:font-extrabold lg:text-xl">
+                    <router-link to="/help"  class="text-sm font-extrabold bg-cyan-500 rounded-lg text-gray-50 mx-1 lg:mx-3 p-2 lg:font-extrabold lg:text-xl">
                         کمک به خیریه
                     </router-link>
 

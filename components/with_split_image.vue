@@ -17,31 +17,41 @@
 <template>
   <div class="bg-white">
     <section aria-labelledby="features-heading" class="relative">
-      <div class="aspect-w-3 pt-32 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full lg:pr-4 xl:pr-16">
-<!--        <img src="https://tailwindui.com/img/ecommerce-images/confirmation-page-01-hero.jpg" alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen." class="h-full w-full object-center object-cover lg:h-full lg:w-full" />-->
-        <div class="m-5 p-5 rounded-lg ">
-          <video src="https://nuxt-sieraf.chbk.run/vid/1.MP4" controls>
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
+      <div class="m-5 p-5 rounded-lg  mx-auto text-center">
+        <video muted  controls autoplay class="mx-auto text-center border-4  rounded-lg border-black"  src="https://nuxt-sieraf.chbk.run/vid/1.MP4" >
+          Your browser does not support the video tag.
+        </video>
+        <p class=" text-xl mt-3 font-extrabold text-gray-900 tracking-tight"> خانم جزایری</p>
+        <h2 id="features-heading" class="font-medium mt-2 text-gray-500"> مدیر خیریه</h2>
       </div>
 
-      <div class="max-w-2xl mx-auto pt-12 pb-24 px-4 sm:pb-32 sm:px-6 lg:max-w-7xl lg:pt-32 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+      <div class="max-w-2xl mx-auto mx-auto text-center bg-cyan-100  pt-12 px-4  rounded-t-2xl  lg:max-w-7xl  px-8 lg:grid lg:gap-x-8">
         <div class="lg:col-start-2">
-          <p class=" text-4xl font-extrabold text-gray-900 tracking-tight"> خانم جزایری</p>
-          <h2 id="features-heading" class="font-medium mt-4 text-gray-500"> مدیر خیریه</h2>
 
-          <p class="mt-4 text-gray-500" style="text-align: justify">
+          <p class="mt-4 text-gray-500 text-2xl font-extrabold lg:mx-16" style="text-align: justify">
 
-            این موسسه پس از طی تشریفات اداری و اخذ مجوزات قانونی از نهاد های دولتی، بهزیستی، و............... در سال 1390 در اداره ثبت شرکت ها و موسسات غیر تجاری با شماره ....776..... به ثبت رسید
+           اهداف کلی
 
-            از ابتدای آغاز به فعالیت این موسسه درخیابان فردوسی ................................تاکنون بیش از ........... نفر از معلولین جسمی حرکتی نابینا و ناشنواساکن در این 00000000 و شهرستان ها از مجموعه خدمات “صد در صد رایگان” این موسسه بهره ‌مند گشته‌ اند.
+          </p>
+          <p class="mt-4 text-gray-500 lg:mx-16" style="text-align: justify">
 
-            نظر به اینکه هدف خدمتگزاران و حامیان این مؤسسه، مقابله با تفکر ناتوانی؛ و صدقه‌گیری و نیز ترویج تحقق اندیشه توانائی و تلاش موثر به ‌منظور تأمین معاش عزتمند میباشد، لذا این مؤسسه تصمیم به حمایت از بحث اشتغال و خود اشتغالی عزیزان توانیاب را گرفت
+            آموزش حرفه ای ویژه متناسب با علاقه و سطح توانایی فرد مورد نظر
+            <br/>
+            <br/>
+            کمک مالی برای تحصیل و آموزش عالی
+            <br/>
+            <br/>
 
-
-
+            توان بخشی و کمک برای تهیه وسایل کمکی مانند ویلچر و سمعک و سایر موارد
+            <br/>
+            <br/>
+            کمک هزینه مسکن
+            <br/>
+            <br/>
+            کمک هزینه درمان (جراحی و فیزیوتراپی و غیره)
+            <br/>
+            <br/>
+            وسایل آسان کننده زندگی و تعمیرات ساختمان
           </p>
 
           <dl class="mt-10 grid grid-cols-1 gap-y-10 gap-x-8 text-sm sm:grid-cols-2">

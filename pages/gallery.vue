@@ -38,7 +38,13 @@ const products = [
 
   },
   {
-    id: 5,
+    id: 10,
+    imageSrc: '1.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+
+  },
+  {
+    id: 11,
     imageSrc: '1.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
 
@@ -46,7 +52,3 @@ const products = [
   // More products...
 ]
 </script>
-
-<style scoped>
-
-</style>

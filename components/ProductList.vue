@@ -16,6 +16,10 @@
 <!--                   class="absolute inset-0 cursor-zoom-in  shadow right-0 w-full h-full object-cover rounded-xl " loading="lazy" />-->
               <img v-bind:src="'https://nuxt-sieraf.chbk.run/product/'+product.image" :alt="product.name"
                    class="  lg:shadow w-full lg:mr-2  lg:my-6 h-auto object-right rounded-xl " loading="lazy" />
+             <a :href="'https://nuxt-sieraf.chbk.run/product/'+product.image">
+               <ZoomInIcon  class="p-2  h-10 w-10 lg:w-10 lg:h-10">
+               </ZoomInIcon>
+             </a>
 
             </div>
             <div class="flex-auto p-6 hidden lg:block">
@@ -152,7 +156,7 @@
 </template>
 
 <script>
-import { StarIcon,ShoppingCartIcon,PlusIcon } from '@heroicons/vue/solid'
+import { StarIcon,ShoppingCartIcon,PlusIcon,ZoomInIcon } from '@heroicons/vue/solid'
 import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from '@heroicons/vue/solid'
 import TheProductPagination from "./TheProductPagination";
 import TheLoader from "./TheLoader";
@@ -163,6 +167,7 @@ import TheSimpleError from "./TheSimpleError";
 export default {
   components: {
     TheSimpleError,
+    ZoomInIcon,
     PlusIcon,
     ShoppingCartIcon,
     TheSimpleToast,

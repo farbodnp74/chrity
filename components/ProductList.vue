@@ -276,6 +276,30 @@ export default {
         "size" : "-",
         "image" : "11.jpg"
       },
+      {
+        "name"  : "لباس زیر ",
+        "description"  : "با ملحفه و روبرنکاردی با ابعاد مختلف و گرماژ های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "12.jpg"
+      },
+      {
+        "name"  : "ست اندوسکوپی گان ",
+        "description"  : " گرماژ های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "13.jpg"
+      },
+      {
+        "name"  : "ست کلونوسکوپی  ",
+        "description"  : " گرماژ های مختلف",
+        "category"  : "ست جراحی",
+        "country"  : "ایران",
+        "size" : "-",
+        "image" : "14.jpg"
+      },
 
     ]
   },

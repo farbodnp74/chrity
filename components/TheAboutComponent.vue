@@ -1,6 +1,6 @@
 <template>
   <div class="text-right" dir="rtl">
-    <div class="mt-4 border-t bg-gray-50 rounded-lg lg:m-12 lg:m-24 p-5">
+    <div class="mt-1 border-t bg-gray-50 rounded-lg lg:m-12 lg:m-24 p-5">
       <h3 class="text-base font-semibold leading-7 text-gray-900">مشخصات خیریه مینو</h3>
 <!--      <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">جزییات اطلاعات شرکت</p>-->
       <dl class="divide-y divide-gray-300">

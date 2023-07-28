@@ -28,38 +28,44 @@ const products = [
   {
     id: 4,
     imageSrc: '5.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "خیریه مینو",
 
   },
   {
     id: 5,
     imageSrc: '6.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "خیریه مینو",
 
   },
   {
     id: 10,
     imageSrc: '10.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "خیریه مینو",
 
   },
   {
     id: 11,
     imageSrc: '11.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "خیریه مینو",
 
   },
 
   {
     id: 12,
     imageSrc: '12.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "خیریه مینو",
 
   },
   {
     id: 13,
     imageSrc: '13.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "خیریه مینو",
+
+  },
+  {
+    id: 14,
+    imageSrc: '14.jpg',
+    imageAlt: "خیریه مینو",
 
   },
   // More products...

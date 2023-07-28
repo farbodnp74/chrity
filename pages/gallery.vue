@@ -39,13 +39,26 @@ const products = [
   },
   {
     id: 10,
-    imageSrc: '1.jpg',
+    imageSrc: '10.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
 
   },
   {
     id: 11,
-    imageSrc: '1.jpg',
+    imageSrc: '11.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+
+  },
+
+  {
+    id: 12,
+    imageSrc: '12.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+
+  },
+  {
+    id: 13,
+    imageSrc: '13.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
 
   },

@@ -38,12 +38,6 @@ const products = [
 
   },
   {
-    id: 10,
-    imageSrc: '10.jpg',
-    imageAlt: "خیریه مینو",
-
-  },
-  {
     id: 11,
     imageSrc: '11.jpg',
     imageAlt: "خیریه مینو",
@@ -53,12 +47,6 @@ const products = [
   {
     id: 12,
     imageSrc: '12.jpg',
-    imageAlt: "خیریه مینو",
-
-  },
-  {
-    id: 13,
-    imageSrc: '13.jpg',
     imageAlt: "خیریه مینو",
 
   },

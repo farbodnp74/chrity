@@ -207,7 +207,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "1.jpg"
+        "image" : "1.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "ست جراحی زنانه",
@@ -215,7 +216,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "2.jpg"
+        "image" : "2.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "ست جراحی زنانه",
@@ -223,7 +225,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "3.jpg"
+        "image" : "3.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "دراشیت",
@@ -231,7 +234,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "70*50  100*70",
-        "image" : "5.jpg"
+        "image" : "5.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "کلاه پزشک و کلاه بیمار",
@@ -239,7 +243,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "6.jpg"
+        "image" : "6.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "شنل جهت پوشش ",
@@ -247,7 +252,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "7.jpg"
+        "image" : "7.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "گان استین کش باف",
@@ -255,7 +261,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "8.jpg"
+        "image" : "8.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "گان تک صداب ",
@@ -263,7 +270,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "9.jpg"
+        "image" : "9.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "لباس کودک ",
@@ -271,7 +279,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "10.jpg"
+        "image" : "10.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : " گان تک ",
@@ -279,7 +288,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "11.jpg"
+        "image" : "11.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "لباس زیر ",
@@ -287,7 +297,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "12.jpg"
+        "image" : "12.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "ست اندوسکوپی گان ",
@@ -295,7 +306,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "13.jpg"
+        "image" : "13.jpg",
+        "material" : "بافتنی"
       },
       {
         "name"  : "ست کلونوسکوپی  ",
@@ -303,7 +315,8 @@ export default {
         "category"  : "ست جراحی",
         "country"  : "ایران",
         "size" : "-",
-        "image" : "14.jpg"
+        "image" : "14.jpg",
+        "material" : "بافتنی"
       },
 
     ]

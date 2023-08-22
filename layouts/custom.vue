@@ -7,8 +7,8 @@
         <slot/>
     </main>
     <div class="bg-opacity-100  bg-gray-900  right-20 bottom-0 z-30 w-50 sticky items-center justify-center self-center my-auto text-center" dir="rtl">
-      <div  class="bg-green-200 rounded-full  hover:bg-emerald-200 h-16 w-16 rounded-full items-center self-center justify-center my-auto text-center -translate-y-7 mx-5">
-        <a class="rounded-full" referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=366374&amp;Code=dDJh9IlxlqgArmB8bvfH"><img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=366374&amp;Code=dDJh9IlxlqgArmB8bvfH" alt="" style="cursor:pointer" id="dDJh9IlxlqgArmB8bvfH"></a>
+      <div  class="bg-gray-200 rounded-full   h-16 w-16 rounded-full items-center self-center justify-center my-auto text-center -translate-y-7 mx-5">
+        <a class="rounded-full p-3 m-3" referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=366374&amp;Code=dDJh9IlxlqgArmB8bvfH"><img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=366374&amp;Code=dDJh9IlxlqgArmB8bvfH" alt="" style="cursor:pointer" id="dDJh9IlxlqgArmB8bvfH"></a>
 
       </div>
     </div>

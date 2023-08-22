@@ -208,7 +208,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "1.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "ست جراحی زنانه",
@@ -217,7 +217,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "2.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "ست جراحی زنانه",
@@ -226,7 +226,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "3.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "دراشیت",
@@ -235,7 +235,7 @@ export default {
         "country"  : "ایران",
         "size" : "70*50  100*70",
         "image" : "5.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "کلاه پزشک و کلاه بیمار",
@@ -244,7 +244,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "6.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "شنل جهت پوشش ",
@@ -253,7 +253,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "7.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "گان استین کش باف",
@@ -262,7 +262,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "8.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "گان تک صداب ",
@@ -271,7 +271,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "9.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "لباس کودک ",
@@ -280,7 +280,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "10.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : " گان تک ",
@@ -289,7 +289,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "11.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "لباس زیر ",
@@ -298,7 +298,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "12.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "ست اندوسکوپی گان ",
@@ -307,7 +307,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "13.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
       {
         "name"  : "ست کلونوسکوپی  ",
@@ -316,7 +316,7 @@ export default {
         "country"  : "ایران",
         "size" : "-",
         "image" : "14.jpg",
-        "material" : "بافتنی"
+        "material" : "بافتینه"
       },
 
     ]

@@ -8,7 +8,6 @@
             {{ item.name }}
           </router-link>
         </div>
-        <a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=366374&amp;Code=dDJh9IlxlqgArmB8bvfH"><img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=366374&amp;Code=dDJh9IlxlqgArmB8bvfH" alt="" style="cursor:pointer" id="dDJh9IlxlqgArmB8bvfH"></a>
       </nav>
        <div class="mt-8 md:order-1">
         <p class="text-center text-base text-white">ساخته شده با

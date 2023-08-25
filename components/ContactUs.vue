@@ -1,9 +1,12 @@
 <template>
   <div class="bg-white">
     <section aria-labelledby="features-heading" class="relative">
-      <a href="https://instagram.com/kasa.scarf" target="_blank" class="aspect-w-3 mx-5 md:mx-0 bg-gray-100 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full lg:pr-4 xl:pr-16">
+      <a href="https://instagram.com/minoo_charity_bojnurd" target="_blank" class="aspect-w-3 mx-5 md:mx-0  aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full lg:pr-4 xl:pr-16">
+        <div class="md:hidden text-center mx-auto my-2 font-medium">
+          صفحه اینستاگرام
+        </div>
         <img
-            src="~/assets/prod/10.jpeg" alt=""
+            src="~/assets/prod/insta.jpg" alt=""
              class="h-full lg:my-5  w-5/6 shadow-xl object-center object-cover lg:h-full lg:w-auto rounded-3xl border-black border-4 text-center mx-auto justify-center items-center self-center" />
       </a>
 

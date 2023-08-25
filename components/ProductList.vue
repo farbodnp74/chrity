@@ -276,7 +276,7 @@ export default {
       {
         "name"  : "لباس کودک ",
         "description"  : "گان شلوار و کلاه و پشت کمر",
-        "category"  : "ست جراحی",
+        "category"  : "ست جراحی کودک و نوجوان",
         "country"  : "ایران",
         "size" : "-",
         "image" : "10.jpg",
@@ -292,7 +292,7 @@ export default {
         "material" : "بافتینه"
       },
       {
-        "name"  : "لباس زیر ",
+        "name"  : "لباس زیر ، ملحفه و روبرنکاردی ",
         "description"  : "با ملحفه و روبرنکاردی با ابعاد مختلف و گرماژ های مختلف",
         "category"  : "ست جراحی",
         "country"  : "ایران",
@@ -301,7 +301,7 @@ export default {
         "material" : "بافتینه"
       },
       {
-        "name"  : "ست اندوسکوپی گان ",
+        "name"  : "ست اندوسکوپی  ",
         "description"  : " گرماژ های مختلف",
         "category"  : "ست جراحی",
         "country"  : "ایران",

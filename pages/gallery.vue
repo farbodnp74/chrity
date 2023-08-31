@@ -80,6 +80,31 @@ const products = [
     imageAlt: "خیریه مینو",
 
   },
+  {
+    id: 19,
+    imageSrc: '19.jpg',
+    imageAlt: "خیریه مینو",
+
+  },
+  {
+    id: 20,
+    imageSrc: '20.jpg',
+    imageAlt: "خیریه مینو",
+
+  },
+  {
+    id: 21,
+    imageSrc: '21.jpg',
+    imageAlt: "خیریه مینو",
+
+  },
+
+  {
+    id: 22,
+    imageSrc: '22.jpg',
+    imageAlt: "خیریه مینو",
+
+  },
   // More products...
 ]
 </script>
